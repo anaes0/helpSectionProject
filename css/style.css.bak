@@ -1,0 +1,103 @@
+h2 {
+    text-align: center;
+    color: #45171d;
+    font-family: "Cormorant Garamond", serif;
+    border: 1px solid #212529;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.fosteringImg,
+.volunteeringImg, 
+.adoptionImg{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.d-flex {
+    display: flex;
+    list-style-type: none;
+    text-align: justify;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.d-flex > div {
+    background-color: #f6e3ca;
+    border: #d7c8b6 2px solid;
+    margin-right: 10px;
+    width: calc(100% / 3);
+}
+.d-flex > div:last-child {
+    margin-right: 0;
+}
+      
+.fosteringHeader,
+.volunteeringHeader, 
+.adoptionHeader {
+    text-align: center;
+    color: #d9917b;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    position: relative;
+}
+.adoptionText {
+    font-size: 17px;
+    font-family: "Cormorant Garamond" serif;
+}
+.fosteringText {
+    font-size: 17px;
+    font-family: "Cormorant Garamond" serif;
+}
+.volunteeringText {
+    font-size: 17px;
+    font-family: "Cormorant Garamond" serif;
+}
+
+
+button {
+        display: block;
+        margin: 20px auto;
+        background: #d9917b;
+        color: floralwhite;
+        font-size: 17px;
+        font-family: "Cormorant Garamond", serif;
+        padding: 17.92px 29.92px;
+        border: 1.5px solid pink;
+        border-radius: 2em;
+        box-shadow: 5px 2px 2px rgba(122, 159, 177, 0.5);
+        transition: all 200ms ease-in-out;
+        font-weight: bolder;
+      }
+button:hover {
+    color: #212529;
+    background: radial-gradient(
+          905px at 4.9% 85.8%,
+          rgb(255, 243, 242) 0.1%,
+          rgb(255, 247, 220) 57.6%
+        );
+        opacity: 0.9;
+        cursor: pointer;
+      }
+
+.donate-button {
+    border: 1.5px solid pink;
+    border-radius: 2em;
+    margin: 0cm 0cm 48px;
+    transition: background 250ms ease-in-out;
+    letter-spacing: 1px;
+    padding: 17.92px 29.92px;
+    background: #d9917b;
+    color: floralwhite;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 17px;
+    right: 1cm;
+    top: 1cm;
+    position: fixed;
+    font-weight: 900;
+    box-shadow: 5px 2px 2px rgba(122, 159, 177, 0.5);
+}

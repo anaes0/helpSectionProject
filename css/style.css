@@ -1,0 +1,61 @@
+h2 {
+    text-align: center;
+    color: #45171d;
+    font-family: "Cormorant Garamond", serif;
+    border: 1px solid #212529;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.fosteringImg,
+.volunteeringImg, 
+.adoptionImg{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.d-flex {
+    display: flex;
+    list-style-type: none;
+    text-align: justify;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.d-flex > div {
+    background-color: #f6e3ca;
+    border: #d7c8b6 2px solid;
+    margin-right: 10px;
+    width: calc(100% / 3);
+}
+.d-flex > div:last-child {
+    margin-right: 0;
+}
+      
+.fosteringHeader,
+.volunteeringHeader, 
+.adoptionHeader {
+    text-align: center;
+    color: #d9917b;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    position: relative;
+}
+.adoptionText {
+    font-size: 17px;
+    font-family: "Cormorant Garamond" serif;
+}
+.fosteringText {
+    font-size: 17px;
+    font-family: "Cormorant Garamond" serif;
+}
+.volunteeringText {
+    font-size: 17px;
+    font-family: "Cormorant Garamond" serif;
+}
+
+

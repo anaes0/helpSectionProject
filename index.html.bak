@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title> Cats Gallery </title>
+		<link rel="stylesheet"  href="css/style.css" />	
+	</head>
+	<body>
+	<section id="how-can-i-help">
+        <h2>How can I help?</h2>
+        <div class="d-flex">
+          <div class="adoption">
+            <h1 class="adoptionHeader">Adoption</h1>
+            <img class="adoptionImg" src="img/HowCanI3.webp" />
+            <div class="adoptionText">
+              "When considering adopting a new buddy, some things should be
+              considered in advanced (such as age, gender,...ect). That is why
+              we always recommend to ask us any doubt or questions as well as
+              doing some researchs of
+              <a
+                href="https://www.thesprucepets.com/top-mistakes-of-cat-owners-555300"
+                target="_blank"
+              >
+                things to avoid as a cat owner.</a
+              >
+            </div>
+          </div>
+          <div class="fostering">
+            <h1 class="fosteringHeader">Fostering</h1>
+            <img class="fosteringImg" src="img/HowCanIHelp2.webp" />
+            <div class="fosteringText">
+              "Reliable owners are vital to getting cats to fit in perfectly.
+              Finding committed people allows us to help abandoned, lost cats
+              that would otherwise struggle to survive in harsh conditions. We
+              offer 24/7 support to make you able to give the warmest
+              <a
+                href="https://www.cats.org.uk/adopt-a-cat/preparing-for-a-cat"
+                target="_blank"
+              >
+                welcome to your cat
+              </a>
+
+              ."
+            </div>
+          </div>
+          <div class="volunteering">
+            <h1 class="volunteeringHeader">Volunteer</h1>
+            <img class="volunteeringImg" src="img/HowCanIHelp1.webp" />
+            <div class="volunteeringText">
+              "<b>Java The Cat </b>is looking for people who is willing to help
+              us with fostering, transport, adopting, or volunteer events. If
+              you are interested in being part of our team, please fill the
+              contact form to know our current volunteer roles. We will contact
+              you in no time!."
+            </div>
+          </div>
+        </div>
+        <button class="donate-button">Donate</button>
+      </section>
+      <br />
+      <br />
+	  </body>
+</html>
